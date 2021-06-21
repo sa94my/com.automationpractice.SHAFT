@@ -8,7 +8,6 @@ import pageObjects.CellPhones;
 
 public class HoverNavigationTest extends TestBase{
 	CellPhones cellPhonesPageObject ;
-
 	@Test
 	public void method() {
 		homeObject.hoverOverElectronics();

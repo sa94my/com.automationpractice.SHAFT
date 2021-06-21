@@ -6,11 +6,9 @@ import org.openqa.selenium.WebDriver;
 import com.shaft.gui.element.ElementActions;
 
 public class CellPhones {
-	private WebDriver driver;
+	private WebDriver driver=PageBase.driver;
 	
-	public CellPhones(WebDriver driver) {
-		this.driver=driver;
-	}
+	
 	
 	private By pageTitle = By.tagName("h1");
 	
