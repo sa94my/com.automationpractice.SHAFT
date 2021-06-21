@@ -1,6 +1,9 @@
 #shaft questions
 Q.txt
 
+#files
+src/test/java/any
+
 ### Eclipse ###
 .metadata
 bin/
@@ -20,6 +23,10 @@ local.properties
 # drivers
 Drivers/
 
+#reports
+extent-reports
+allure-results
+generate_allure_report.bat
 
 # External tool builders
 .externalToolBuilders/
